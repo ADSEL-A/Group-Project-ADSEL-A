@@ -1,0 +1,28 @@
+{
+  "name": "adsei",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ADSEL-A/Group-Project-ADSEL-A.git"
+  },
+  "author": "Pulkit Mehta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ADSEL-A/Group-Project-ADSEL-A/issues"
+  },
+  "homepage": "https://github.com/ADSEL-A/Group-Project-ADSEL-A#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
