@@ -1,0 +1,294 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+   ================================================== -->
+    <meta charset="utf-8">
+    <title>ADSEI</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+   ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/more.css">
+    <!-- script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+    <!-- <script src="js/slideshow.js"></script> -->
+
+<!-- graphs part -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+
+</head>
+
+<body id="top">
+
+    <!-- header
+   ================================================== -->
+   <header id="header" class="row">
+
+   		<div class="header-logo">
+
+	        <a href="index.html">ADSEI</a>
+	    </div>
+
+	   	<nav id="header-nav-wrap">
+			<ul class="header-main-nav">
+                <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                <li ><a class="smoothscroll"  href="#graphs" title="graphs">Visualisation</a> </li>
+                <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+
+			</ul>
+
+            <a href="login & signup/signup.html" title="sign-up" class="button button-primary cta">Sign Up</a>
+	    <a href="login & signup/login.html" title="login" class="button button-primary cta">Login</a>
+		</nav>
+
+		<a class="header-menu-toggle" href="#"><span>Menu</span></a>
+
+   </header> <!-- /header -->
+
+
+   <!-- home
+   ================================================== -->
+   <section id="home" data-parallax="scroll" data-image-src="images/hero.gif" data-natural-width=3000 data-natural-height=2000>
+
+        <div class="overlay"></div>
+        <div class="home-content">
+
+            <div class="row contents">
+                <div class="home-content-left">
+
+                    <h3 data-aos="fade-up">A Website for Data Visualisation</h3>
+
+                    <h1 data-aos="fade-up">
+
+                        Project <br>
+                        ADSEI-A<br>
+
+                    </h1>
+
+
+
+                </div>
+
+
+            </div>
+
+        </div> <!-- end home-content -->
+
+
+
+        <div class="home-scrolldown">
+            <a href="#about" class="scroll-icon smoothscroll">
+                <span>Scroll Down</span>
+                <i class="icon-arrow-right" aria-hidden="true"></i>
+            </a>
+        </div>
+
+    </section> <!-- end home -->
+<!-- Graphs -->
+<section id="graphs"> 
+    <div class="row about-intro">
+            <div class="bg">
+            <div><h1 class="aos-init aos-animate" style="color:white" data-aos="fade-up"> <a href="graphs/viz.html">Visualization </a></h1></div>
+            <div class="slideshow-container" style="width: 600px;">
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 5</div>
+                      <img src="images/FifaGraph.PNG" style="width:1000px; height:500px">
+                      
+                      <div class="text">Caption Text</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 5</div>
+                      <img src="images/TokyoGraph.PNG" style="width:1000px; height:500px">
+                      
+                      <div class="text">Caption Two</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 5</div>
+                      <img src="images/PopGraph.PNG" style="width:1000px; height:500px">
+                      <div class="text">Caption Three</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                            <div class="numbertext">4 / 5</div>
+                            <img src="images/3DGraph.PNG" style="width:1000px; height:500px">
+                            <div class="text">Caption Three</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">5 / 5</div>
+                        <img src="images/pieGraph.PNG" style="width:1000px; height:500px">
+                        <div class="text">Caption Three</div>
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                    </div>
+                    <br>
+                    
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span> 
+                      <span class="dot" onclick="currentSlide(4)"></span>
+                      <span class="dot" onclick="currentSlide(5)"></span> 
+                    </div>
+                </div> 
+        
+       
+    </div>
+    <!-- script file -->
+    <script src="js/slideshow.js"></script>
+
+    </section>
+
+    <!-- about
+    ================================================== -->
+    <section id="about">
+
+        <div class="row about-intro">
+          <div class="bg">
+            <div class="col-four">
+                <h1 class="intro-header" data-aos="fade-up">About</h1>
+            </div>
+            <div class="col-eight">
+                <p class="lead" data-aos="fade-up">
+                  The project that we will be working in this unit is Data Science Visualisations for
+Education for Australia Data Science Education Institute (ADSEI). The problem this
+project aims to solve is to help students understand and explore the data of the realworld
+datasets in an easy and effective manner, as the ones with data skills will have
+an advantage as this field develops.In today’s time we do not have a lot of
+teachers with data and technical skills who could teach the students about data. There is a
+need to develop a tool that will allow teachers and their students to explore datasets
+in an interactive and engaging way, without a serious need of technical skills. Hence,
+solving the problem in the Education domain.
+                </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row about-features">
+
+            <div class="features-list block-1-3 block-m-1-2 block-mob-full group">
+
+                <div class="bgrid feature" data-aos="fade-up">
+
+                    <span class="icon"><i class="icon-file"></i></span>
+
+                    <div class="service-content">
+
+                        <h3>Team Leader </h3>
+
+                        <p> Teena George </p>
+
+                    </div>
+
+                    </div> <!-- /bgrid -->
+
+                    <div class="bgrid feature" data-aos="fade-up">
+                      <span class="icon"><i class="icon-gift"></i></span>
+
+
+                      <div class="service-content">
+                          <h3>Product Owner</h3>
+
+                          <p> Rahull Hazary </p>
+
+
+                      </div>
+
+                </div> <!-- /bgrid -->
+
+                <div class="bgrid feature" data-aos="fade-up">
+
+                    <span class="icon"><i class="icon-paint-brush"></i></span>
+
+                    <div class="service-content">
+                        <h3> UX/UI Designer </h3>
+
+                        <p> Aditya Tarigopula </p>
+
+                        <h3> Front End Developers  </h3>
+
+                        <p> Anurag Malyala <br> Harsha Nadella</p>
+
+                    </div>
+
+                </div> <!-- /bgrid -->
+
+                    <div class="bgrid feature" data-aos="fade-up">
+
+                      <span class="icon"><i class="icon-sliders"></i></span>
+                      <div class="service-content">
+                        <h3> Back End Developer  </h3>
+
+                        <p> Pulkit Mehta </p>
+                      </div>
+
+
+                    </div> <!-- /bgrid -->
+
+            </div> <!-- end features-list -->
+
+        </div> <!-- end about-features -->
+
+    </section> <!-- end about -->
+
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+
+
+        <div class="footer-bottom">
+
+      	<div class="row">
+
+      		<div class="col-twelve">
+
+
+		         <div id="go-top">
+		            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up"></i></a>
+		         </div>
+	      	</div>
+
+      	</div> <!-- end footer-bottom -->
+
+      </div>
+
+    </footer>
+
+    <div id="preloader">
+    	<div id="loader"></div>
+    </div>
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
